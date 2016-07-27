@@ -9,9 +9,12 @@ the part that DELIVERS the data.
 
 ## What's inside ?
 
-The entire API is inside index.php, but it's using the micro framework
-Slim and an authentication module. The .htaccess creates these
- nice-looking URLs like /api/test, that's actually part of Slim.
+It's just a simple PHP file that makes an example API call,
+authenticates and then echos out the JSON response. This file uses
+the excellent Guzzle HTTP client (that makes it easy to perform HTTP(S)
+requests in PHP with a single line of code) which will be installed
+via Composer (I think you probably know how Composer works as writing 
+APIs is not really a beginner task :)).
 
 ## How to install
 
